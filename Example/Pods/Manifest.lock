@@ -1,0 +1,16 @@
+PODS:
+  - TrapezoidButton (0.1.0)
+
+DEPENDENCIES:
+  - TrapezoidButton (from `../`)
+
+EXTERNAL SOURCES:
+  TrapezoidButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TrapezoidButton: c7517a13f010a052cdade3a1c94d57f653c7ba8a
+
+PODFILE CHECKSUM: ca0051332392aa5c29395fffb687694ce66300b5
+
+COCOAPODS: 1.0.0

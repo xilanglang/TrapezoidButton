@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187B13438BF7E6F58BF9E705CBC2A137 /* LeftTrapezoidButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0C5BB4B79540F4FF1FC5174CB1BFE /* LeftTrapezoidButton.m */; };
+		3F1EA35704838129AC6FE1F0D09DD1D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		42C27480149EAE162BE40B7D9B813AC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		466009422C9F6E8CCC2955BB82A0374A /* Pods-TrapezoidButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 001EC490F26217028393C65C084D93BF /* Pods-TrapezoidButton_Tests-dummy.m */; };
+		4D4ED57814E574A8649B08B0F4D42CDD /* LeftTrapezoidButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D91B99AFEA04A0D3C842E74BC528FABC /* LeftTrapezoidButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77BC97788F8261834AA50B1E177973E6 /* TrapezoidButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0182EF0895AF3DC8B5F7A55AC686124A /* TrapezoidButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9505F87946E9BC017ACA69C2D1DFE80 /* Pods-TrapezoidButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 020F6F1C71FFC23C8E179FF29B4EE3F7 /* Pods-TrapezoidButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C30901EE83242E279E3C30B7FB683857 /* RightTrapezoidButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D655DF8147B9E194BE825A4134771AB /* RightTrapezoidButton.m */; };
+		C30AAA5E3F484301B34A1FD8CBF5C6B8 /* Pods-TrapezoidButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A77BD5EA8D4014A74A4E71CA647857 /* Pods-TrapezoidButton_Example-dummy.m */; };
+		C9C1AC757B83738E4763B744CFE969D9 /* RightTrapezoidButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CF54D0B834D5C9FAB4364984B41D9352 /* RightTrapezoidButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA50E217C8EB10492B10044E5BB60F77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E25AF76C58EA710C5B03B97B5BBF610F /* Pods-TrapezoidButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB3C9F7FC0C8C33B2B04D73C690CA43 /* Pods-TrapezoidButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8E497B398953320FF1210CA7B5D2E3F /* TrapezoidButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 363F7F67EACB5261501F018D0E6097E0 /* TrapezoidButton-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3E47222174689696E478BCE7463008E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ABE20FB3757AC4F5A8DA3215D77EE65;
+			remoteInfo = TrapezoidButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001EC490F26217028393C65C084D93BF /* Pods-TrapezoidButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrapezoidButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		0182EF0895AF3DC8B5F7A55AC686124A /* TrapezoidButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrapezoidButton-umbrella.h"; sourceTree = "<group>"; };
+		020F6F1C71FFC23C8E179FF29B4EE3F7 /* Pods-TrapezoidButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrapezoidButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		028EBDA587C694F615361B474E2F4858 /* TrapezoidButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrapezoidButton-prefix.pch"; sourceTree = "<group>"; };
+		03A7B9B64BBCC46C560D1E8F01F01636 /* Pods-TrapezoidButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrapezoidButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09F92D385D7F16F8063CC6F0B54A2F89 /* Pods-TrapezoidButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrapezoidButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1285B7D989ADEE7718BC13F7F81F7BC4 /* Pods-TrapezoidButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrapezoidButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		18F0C5BB4B79540F4FF1FC5174CB1BFE /* LeftTrapezoidButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LeftTrapezoidButton.m; sourceTree = "<group>"; };
+		264F52D1C6A216BD85CFC70F750B9CB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B59D53C3487455C9F74235A7DBD2A56 /* Pods_TrapezoidButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrapezoidButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		363F7F67EACB5261501F018D0E6097E0 /* TrapezoidButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrapezoidButton-dummy.m"; sourceTree = "<group>"; };
+		3BEEEFBF20E3B6C67D7FC46EE01448DA /* Pods-TrapezoidButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrapezoidButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3E29A14E1775E4AA4F78B1AF50DA2D45 /* Pods-TrapezoidButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrapezoidButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3F83761EC083DF35D2547B9C0A9ED9B3 /* Pods-TrapezoidButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TrapezoidButton_Example.modulemap"; sourceTree = "<group>"; };
+		4AA852C4005720C17670D56EACC3F5CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD19A4DAA2FB30DB33A4A4A2C2834A8 /* Pods-TrapezoidButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrapezoidButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		54993A83D90341B0CF629A2A8FA1BA5E /* TrapezoidButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrapezoidButton.xcconfig; sourceTree = "<group>"; };
+		77E38E0D7EDC53CD913B86E99CFCD577 /* Pods-TrapezoidButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrapezoidButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8573F63D40D7EBF6D4BCF3C06419A59C /* Pods-TrapezoidButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrapezoidButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		8739000A94E5F9841F3C2F84DAA3F480 /* Pods-TrapezoidButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrapezoidButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		905D9B1C3E7F4C75B4F8B85E2C4CCC66 /* TrapezoidButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TrapezoidButton.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97817F58AE08490D8F076F481E36C76C /* Pods-TrapezoidButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrapezoidButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D655DF8147B9E194BE825A4134771AB /* RightTrapezoidButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RightTrapezoidButton.m; sourceTree = "<group>"; };
+		A9DBE722C715DCA452AAC7A5F40A7872 /* Pods_TrapezoidButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrapezoidButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A77BD5EA8D4014A74A4E71CA647857 /* Pods-TrapezoidButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrapezoidButton_Example-dummy.m"; sourceTree = "<group>"; };
+		BC7080BD8B55A888389C6E9DB2ED1170 /* Pods-TrapezoidButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TrapezoidButton_Tests.modulemap"; sourceTree = "<group>"; };
+		C3FFB809665ACA9C2053DC19A5B91A79 /* Pods-TrapezoidButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrapezoidButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CE1342FF5960365559A224CC2BFEED54 /* TrapezoidButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrapezoidButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF54D0B834D5C9FAB4364984B41D9352 /* RightTrapezoidButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RightTrapezoidButton.h; sourceTree = "<group>"; };
+		D91B99AFEA04A0D3C842E74BC528FABC /* LeftTrapezoidButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LeftTrapezoidButton.h; sourceTree = "<group>"; };
+		DFB1C801A2CD67596D0B03E401454E2D /* Pods-TrapezoidButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrapezoidButton_Example-resources.sh"; sourceTree = "<group>"; };
+		F7A52BC8CC9BC36306CCAC0991A2B045 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB3C9F7FC0C8C33B2B04D73C690CA43 /* Pods-TrapezoidButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrapezoidButton_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B7BBADA0D9B82ADAD6B4A5138513A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1EA35704838129AC6FE1F0D09DD1D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41C014DE14D2108A2C96324080AC7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA50E217C8EB10492B10044E5BB60F77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACC972DA31E8B75A516C0677895C96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C27480149EAE162BE40B7D9B813AC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0152AA330FC2BB4ECE6724CD2725C41C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E3362DFDDD3233183F215F8FCB723FF /* TrapezoidButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1E3362DFDDD3233183F215F8FCB723FF /* TrapezoidButton */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C0F6BF9D7BAF8809ED10E1633B1CC /* Support Files */,
+				B95C4EF1547A383CC4512583DA915EB6 /* TrapezoidButton */,
+			);
+			name = TrapezoidButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		421AF382C6770AEE515D2128F7FE0A37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DBE722C715DCA452AAC7A5F40A7872 /* Pods_TrapezoidButton_Example.framework */,
+				2B59D53C3487455C9F74235A7DBD2A56 /* Pods_TrapezoidButton_Tests.framework */,
+				CE1342FF5960365559A224CC2BFEED54 /* TrapezoidButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D4C0F6BF9D7BAF8809ED10E1633B1CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AA852C4005720C17670D56EACC3F5CB /* Info.plist */,
+				905D9B1C3E7F4C75B4F8B85E2C4CCC66 /* TrapezoidButton.modulemap */,
+				54993A83D90341B0CF629A2A8FA1BA5E /* TrapezoidButton.xcconfig */,
+				363F7F67EACB5261501F018D0E6097E0 /* TrapezoidButton-dummy.m */,
+				028EBDA587C694F615361B474E2F4858 /* TrapezoidButton-prefix.pch */,
+				0182EF0895AF3DC8B5F7A55AC686124A /* TrapezoidButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TrapezoidButton";
+			sourceTree = "<group>";
+		};
+		61FD8600AAF614814A26040E05D88BB2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D91B99AFEA04A0D3C842E74BC528FABC /* LeftTrapezoidButton.h */,
+				18F0C5BB4B79540F4FF1FC5174CB1BFE /* LeftTrapezoidButton.m */,
+				CF54D0B834D5C9FAB4364984B41D9352 /* RightTrapezoidButton.h */,
+				9D655DF8147B9E194BE825A4134771AB /* RightTrapezoidButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6F3044325BBD0D3E31FB2056CE32B102 /* Pods-TrapezoidButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F7A52BC8CC9BC36306CCAC0991A2B045 /* Info.plist */,
+				BC7080BD8B55A888389C6E9DB2ED1170 /* Pods-TrapezoidButton_Tests.modulemap */,
+				77E38E0D7EDC53CD913B86E99CFCD577 /* Pods-TrapezoidButton_Tests-acknowledgements.markdown */,
+				97817F58AE08490D8F076F481E36C76C /* Pods-TrapezoidButton_Tests-acknowledgements.plist */,
+				001EC490F26217028393C65C084D93BF /* Pods-TrapezoidButton_Tests-dummy.m */,
+				09F92D385D7F16F8063CC6F0B54A2F89 /* Pods-TrapezoidButton_Tests-frameworks.sh */,
+				8573F63D40D7EBF6D4BCF3C06419A59C /* Pods-TrapezoidButton_Tests-resources.sh */,
+				020F6F1C71FFC23C8E179FF29B4EE3F7 /* Pods-TrapezoidButton_Tests-umbrella.h */,
+				1285B7D989ADEE7718BC13F7F81F7BC4 /* Pods-TrapezoidButton_Tests.debug.xcconfig */,
+				3E29A14E1775E4AA4F78B1AF50DA2D45 /* Pods-TrapezoidButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-TrapezoidButton_Tests";
+			path = "Target Support Files/Pods-TrapezoidButton_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0152AA330FC2BB4ECE6724CD2725C41C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				421AF382C6770AEE515D2128F7FE0A37 /* Products */,
+				C2796C22C1F9D621764BDF891568B9C9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F59833848370BA6F083331F1D13965B /* Pods-TrapezoidButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				264F52D1C6A216BD85CFC70F750B9CB6 /* Info.plist */,
+				3F83761EC083DF35D2547B9C0A9ED9B3 /* Pods-TrapezoidButton_Example.modulemap */,
+				03A7B9B64BBCC46C560D1E8F01F01636 /* Pods-TrapezoidButton_Example-acknowledgements.markdown */,
+				8739000A94E5F9841F3C2F84DAA3F480 /* Pods-TrapezoidButton_Example-acknowledgements.plist */,
+				B1A77BD5EA8D4014A74A4E71CA647857 /* Pods-TrapezoidButton_Example-dummy.m */,
+				C3FFB809665ACA9C2053DC19A5B91A79 /* Pods-TrapezoidButton_Example-frameworks.sh */,
+				DFB1C801A2CD67596D0B03E401454E2D /* Pods-TrapezoidButton_Example-resources.sh */,
+				FAB3C9F7FC0C8C33B2B04D73C690CA43 /* Pods-TrapezoidButton_Example-umbrella.h */,
+				4BD19A4DAA2FB30DB33A4A4A2C2834A8 /* Pods-TrapezoidButton_Example.debug.xcconfig */,
+				3BEEEFBF20E3B6C67D7FC46EE01448DA /* Pods-TrapezoidButton_Example.release.xcconfig */,
+			);
+			name = "Pods-TrapezoidButton_Example";
+			path = "Target Support Files/Pods-TrapezoidButton_Example";
+			sourceTree = "<group>";
+		};
+		B95C4EF1547A383CC4512583DA915EB6 /* TrapezoidButton */ = {
+			isa = PBXGroup;
+			children = (
+				61FD8600AAF614814A26040E05D88BB2 /* Classes */,
+			);
+			path = TrapezoidButton;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2796C22C1F9D621764BDF891568B9C9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F59833848370BA6F083331F1D13965B /* Pods-TrapezoidButton_Example */,
+				6F3044325BBD0D3E31FB2056CE32B102 /* Pods-TrapezoidButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F4D048CB75857B796D07687FE7F54E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9505F87946E9BC017ACA69C2D1DFE80 /* Pods-TrapezoidButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC059D728781E8B1D541D55ABA95D5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4ED57814E574A8649B08B0F4D42CDD /* LeftTrapezoidButton.h in Headers */,
+				C9C1AC757B83738E4763B744CFE969D9 /* RightTrapezoidButton.h in Headers */,
+				77BC97788F8261834AA50B1E177973E6 /* TrapezoidButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6DADC9BB85228EA3468B44C971D0C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25AF76C58EA710C5B03B97B5BBF610F /* Pods-TrapezoidButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1ABE20FB3757AC4F5A8DA3215D77EE65 /* TrapezoidButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647B691BB994EC51082D84D0DC3A3327 /* Build configuration list for PBXNativeTarget "TrapezoidButton" */;
+			buildPhases = (
+				31D463C3066E19176E5BE70076D97AEB /* Sources */,
+				8F41C014DE14D2108A2C96324080AC7D /* Frameworks */,
+				6EC059D728781E8B1D541D55ABA95D5F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrapezoidButton;
+			productName = TrapezoidButton;
+			productReference = CE1342FF5960365559A224CC2BFEED54 /* TrapezoidButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BB87B95125B555C1527B1BC0886FC6F /* Pods-TrapezoidButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB3FBD88B77B27772481A1C0EAB7CCF /* Build configuration list for PBXNativeTarget "Pods-TrapezoidButton_Example" */;
+			buildPhases = (
+				2EBFAA18F73704D7AD7DDEABBA01E924 /* Sources */,
+				29B7BBADA0D9B82ADAD6B4A5138513A4 /* Frameworks */,
+				9C6DADC9BB85228EA3468B44C971D0C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3316AD2058D9315CE6EBA51B3C56A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-TrapezoidButton_Example";
+			productName = "Pods-TrapezoidButton_Example";
+			productReference = A9DBE722C715DCA452AAC7A5F40A7872 /* Pods_TrapezoidButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B215C404D52E18CC57262665029A555D /* Pods-TrapezoidButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B81DDAC49722EB765A55C396F531CA6E /* Build configuration list for PBXNativeTarget "Pods-TrapezoidButton_Tests" */;
+			buildPhases = (
+				D9A4E3EC8B8A2B5D19EFB2F0415F94AB /* Sources */,
+				BACC972DA31E8B75A516C0677895C96E /* Frameworks */,
+				4F4D048CB75857B796D07687FE7F54E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TrapezoidButton_Tests";
+			productName = "Pods-TrapezoidButton_Tests";
+			productReference = 2B59D53C3487455C9F74235A7DBD2A56 /* Pods_TrapezoidButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 421AF382C6770AEE515D2128F7FE0A37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BB87B95125B555C1527B1BC0886FC6F /* Pods-TrapezoidButton_Example */,
+				B215C404D52E18CC57262665029A555D /* Pods-TrapezoidButton_Tests */,
+				1ABE20FB3757AC4F5A8DA3215D77EE65 /* TrapezoidButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EBFAA18F73704D7AD7DDEABBA01E924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30AAA5E3F484301B34A1FD8CBF5C6B8 /* Pods-TrapezoidButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31D463C3066E19176E5BE70076D97AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B13438BF7E6F58BF9E705CBC2A137 /* LeftTrapezoidButton.m in Sources */,
+				C30901EE83242E279E3C30B7FB683857 /* RightTrapezoidButton.m in Sources */,
+				F8E497B398953320FF1210CA7B5D2E3F /* TrapezoidButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A4E3EC8B8A2B5D19EFB2F0415F94AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466009422C9F6E8CCC2955BB82A0374A /* Pods-TrapezoidButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE3316AD2058D9315CE6EBA51B3C56A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TrapezoidButton;
+			target = 1ABE20FB3757AC4F5A8DA3215D77EE65 /* TrapezoidButton */;
+			targetProxy = E3E47222174689696E478BCE7463008E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24DF0D9849B0A6008136B073E8DDC625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E29A14E1775E4AA4F78B1AF50DA2D45 /* Pods-TrapezoidButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TrapezoidButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrapezoidButton_Tests/Pods-TrapezoidButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TrapezoidButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D98DC73C5607E07E38C39E68C34100F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD19A4DAA2FB30DB33A4A4A2C2834A8 /* Pods-TrapezoidButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TrapezoidButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrapezoidButton_Example/Pods-TrapezoidButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TrapezoidButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EDE4DFD44ECB45FA640130F03CB8B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54993A83D90341B0CF629A2A8FA1BA5E /* TrapezoidButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TrapezoidButton/TrapezoidButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TrapezoidButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TrapezoidButton/TrapezoidButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TrapezoidButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97C9CFA48D66935F4F36493704685F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54993A83D90341B0CF629A2A8FA1BA5E /* TrapezoidButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TrapezoidButton/TrapezoidButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TrapezoidButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TrapezoidButton/TrapezoidButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TrapezoidButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D32208DAC859AFCA39517B9AA133D355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BEEEFBF20E3B6C67D7FC46EE01448DA /* Pods-TrapezoidButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TrapezoidButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrapezoidButton_Example/Pods-TrapezoidButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TrapezoidButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D6CBC5B209C780542340E43A0C789813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1285B7D989ADEE7718BC13F7F81F7BC4 /* Pods-TrapezoidButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TrapezoidButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrapezoidButton_Tests/Pods-TrapezoidButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TrapezoidButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB3FBD88B77B27772481A1C0EAB7CCF /* Build configuration list for PBXNativeTarget "Pods-TrapezoidButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D98DC73C5607E07E38C39E68C34100F /* Debug */,
+				D32208DAC859AFCA39517B9AA133D355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647B691BB994EC51082D84D0DC3A3327 /* Build configuration list for PBXNativeTarget "TrapezoidButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C9CFA48D66935F4F36493704685F76 /* Debug */,
+				7EDE4DFD44ECB45FA640130F03CB8B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B81DDAC49722EB765A55C396F531CA6E /* Build configuration list for PBXNativeTarget "Pods-TrapezoidButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CBC5B209C780542340E43A0C789813 /* Debug */,
+				24DF0D9849B0A6008136B073E8DDC625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
