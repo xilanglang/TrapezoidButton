@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TrapezoidButton_Example' do
+  pod 'TrapezoidButton', :path => '../'
+
+  target 'TrapezoidButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
