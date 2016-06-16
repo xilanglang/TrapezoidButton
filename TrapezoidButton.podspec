@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/TrapezoidButton'
+  s.homepage         = 'https://github.com/xilanglang/TrapezoidButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'caoyanan' => '2606090119@qq.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/TrapezoidButton.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xilanglang/TrapezoidButton.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'TrapezoidButton/Classes/**/*'
   
