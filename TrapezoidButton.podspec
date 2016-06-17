@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TrapezoidButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TrapezoidButton.'
+  s.summary          = '自定义梯形button'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+			自定义梯形按钮可以点击，点击时改变颜色
                        DESC
 
   s.homepage         = 'https://github.com/xilanglang/TrapezoidButton'
